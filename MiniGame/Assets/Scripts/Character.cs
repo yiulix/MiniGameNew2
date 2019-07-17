@@ -35,6 +35,11 @@ public class Character:MonoBehaviour
     {
 
     }
+
+    public void ChangeRelationship()
+    {
+
+    }
 }
 
 public static class GameData

@@ -8,6 +8,7 @@ public class PageManager : MonoBehaviour
     public GameObject bookCam;
     public GameObject page;
     public GameObject rPage;
+    public GameObject lPage;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,7 @@ public class PageManager : MonoBehaviour
         bookCam.SetActive(true);
         page.SetActive(true);
         rPage.SetActive(true);
+        lPage.SetActive(true);
         
     }
 }
