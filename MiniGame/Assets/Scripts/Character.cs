@@ -10,6 +10,7 @@ public class Character:MonoBehaviour
     public int health;
     public int defense;
     public int attack;
+    public int talent;
 
     public int[] relationships;
 
@@ -21,7 +22,17 @@ public class Character:MonoBehaviour
         
     }
 
-    public void TakeDamage()
+    public void Init(int id, string n, int h, int a, int d, int t)
+    {
+        ID = id;
+        name = n;
+        health = h;
+        attack = a;
+        defense = d;
+        talent = t;
+    }
+
+    public void TakeDamage(int dmg)
     {
 
     }

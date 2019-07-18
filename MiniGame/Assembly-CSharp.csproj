@@ -619,6 +619,7 @@
     <Compile Include="Assets\Scripts\BattleScene.cs" />
     <Compile Include="Assets\Scripts\BookPage.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
+    <Compile Include="Assets\Scripts\GameStartScene.cs" />
     <Compile Include="Assets\Scripts\Monster.cs" />
     <Compile Include="Assets\Scripts\PageFill.cs" />
     <Compile Include="Assets\Scripts\PageManager.cs" />
