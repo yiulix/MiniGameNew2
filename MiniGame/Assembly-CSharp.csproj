@@ -620,6 +620,7 @@
     <Compile Include="Assets\Scripts\Character.cs" />
     <Compile Include="Assets\Scripts\FlowchartManger.cs" />
     <Compile Include="Assets\Scripts\FlowchartMangerBattle.cs" />
+    <Compile Include="Assets\Scripts\FlowchartMangerDialogue.cs" />
     <Compile Include="Assets\Scripts\GameStartScene.cs" />
     <Compile Include="Assets\Scripts\Monster.cs" />
     <Compile Include="Assets\Scripts\PageFill.cs" />
