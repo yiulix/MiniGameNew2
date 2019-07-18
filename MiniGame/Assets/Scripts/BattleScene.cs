@@ -7,7 +7,7 @@ public class BattleScene : MonoBehaviour
     public PageManager pgm;
     int turn = -1; // 0 for c0, 2 for c1, 4 for c2, 1,3,5 for monster
     public Monster monster;
-
+    public int BattleState = -1; // 0 is fighting, 1 win, 2 lose
     string[] toDialog; // who, whom, dmg
 
     // Start is called before the first frame update
@@ -49,6 +49,7 @@ public class BattleScene : MonoBehaviour
             toDialog[0] = GameData.c0.name;
             toDialog[1] = monster.name;
             toDialog[2] = dmg.ToString();
+            
         }
         if (turn == 2)
         {
@@ -79,6 +80,7 @@ public class BattleScene : MonoBehaviour
                 toDialog[0] = monster.name;
                 toDialog[1] = GameData.c0.name;
                 toDialog[2] = dmg.ToString();
+                GameData.c0.TakeDamage(dmg);
             }
             if (r == 1)
             {
@@ -86,6 +88,7 @@ public class BattleScene : MonoBehaviour
                 toDialog[0] = monster.name;
                 toDialog[1] = GameData.c1.name;
                 toDialog[2] = dmg.ToString();
+                GameData.c1.TakeDamage(dmg);
             }
             if (r == 2)
             {
@@ -93,6 +96,7 @@ public class BattleScene : MonoBehaviour
                 toDialog[0] = monster.name;
                 toDialog[1] = GameData.c2.name;
                 toDialog[2] = dmg.ToString();
+                GameData.c2.TakeDamage(dmg);
             }
 
         }

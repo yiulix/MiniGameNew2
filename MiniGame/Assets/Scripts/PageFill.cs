@@ -8,9 +8,9 @@ public class PageFill : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        float h = Mathf.Tan(bookCam.fieldOfView * Mathf.Deg2Rad * 0.5f) * 10 * 2f;
+        float h = Mathf.Tan(bookCam.fieldOfView * Mathf.Deg2Rad * 0.5f) * 1 * 2f;
         
-        transform.localScale = new Vector3(h * bookCam.aspect, h, 1f);
+        transform.localScale = new Vector3(h * bookCam.aspect, 1f, h);
     }
 
     // Update is called once per frame
