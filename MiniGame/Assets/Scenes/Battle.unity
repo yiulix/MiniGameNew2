@@ -267,6 +267,7 @@ MonoBehaviour:
   pgm: {fileID: 461986012}
   monster: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   BattleState: -1
 <<<<<<< HEAD
   c0: {fileID: 0}
@@ -274,6 +275,8 @@ MonoBehaviour:
   c2: {fileID: 0}
 =======
 >>>>>>> 25bc6fcb4878cb4013428947ada48775064e2dca
+=======
+>>>>>>> parent of 522eefb... sss
 =======
 >>>>>>> parent of 522eefb... sss
 --- !u!4 &439614787
@@ -1162,6 +1165,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1530944660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1278,6 +1282,8 @@ MonoBehaviour:
   flowchart: {fileID: 0}
   battle: {fileID: 0}
 >>>>>>> 25bc6fcb4878cb4013428947ada48775064e2dca
+=======
+>>>>>>> parent of 522eefb... sss
 =======
 >>>>>>> parent of 522eefb... sss
 --- !u!1 &1749624187

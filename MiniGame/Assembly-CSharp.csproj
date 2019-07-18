@@ -618,11 +618,15 @@
     <Compile Include="Assets\Scripts\BattleScene.cs" />
     <Compile Include="Assets\Scripts\BookPage.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\FlowchartManger.cs" />
     <Compile Include="Assets\Scripts\FlowchartMangerBattle.cs" />
     <Compile Include="Assets\Scripts\FlowchartMangerDialogue.cs" />
     <Compile Include="Assets\Scripts\FullscreenSprite.cs" />
+=======
+    <Compile Include="Assets\Scripts\Character.cs" />
+>>>>>>> parent of 522eefb... sss
 =======
     <Compile Include="Assets\Scripts\Character.cs" />
 >>>>>>> parent of 522eefb... sss
