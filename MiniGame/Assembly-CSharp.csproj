@@ -617,20 +617,20 @@
     <Compile Include="Assets\FungusExamples\MonoBehEvents\SpriteColorChangeFromFungusMouseEvent.cs" />
     <Compile Include="Assets\Scripts\BattleScene.cs" />
     <Compile Include="Assets\Scripts\BookPage.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\FlowchartManger.cs" />
     <Compile Include="Assets\Scripts\FlowchartMangerBattle.cs" />
     <Compile Include="Assets\Scripts\FlowchartMangerDialogue.cs" />
     <Compile Include="Assets\Scripts\FullscreenSprite.cs" />
+=======
+    <Compile Include="Assets\Scripts\Character.cs" />
+>>>>>>> parent of 522eefb... sss
     <Compile Include="Assets\Scripts\GameStartScene.cs" />
-    <Compile Include="Assets\Scripts\mCharacter.cs" />
     <Compile Include="Assets\Scripts\Monster.cs" />
     <Compile Include="Assets\Scripts\PageFill.cs" />
     <Compile Include="Assets\Scripts\PageManager.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
-    <Compile Include="Assets\Scripts\ReadData\DataUse.cs" />
-    <Compile Include="Assets\Scripts\ReadData\model.cs" />
-    <Compile Include="Assets\Scripts\ReadData\ReadWriteCsv.cs" />
     <Compile Include="Assets\Scripts\SelectDoorScene.cs" />
     <None Include="Assets\Fungus\Thirdparty\ThirdPartyNotices.txt" />
     <None Include="Assets\Fungus\Thirdparty\TextMeshPro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />

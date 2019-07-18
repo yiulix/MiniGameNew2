@@ -34,6 +34,7 @@ public class BookPage : MonoBehaviour
             stage2 = true;
             m_Material.SetFloat("_Angle", 10);
             m_Material.DOFloat(180, "_Angle", 3);
+
         }
         if (Time.time - tStamp > 6 && stage3 == false)
         {
