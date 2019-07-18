@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Character:MonoBehaviour
+public class mCharacter : MonoBehaviour
 {
-    public string name;
+    public string cName;
     public bool isPlayer = false;
     public int ID;
     public int health;
@@ -25,7 +25,7 @@ public class Character:MonoBehaviour
     public void Init(int id, string n, int h, int a, int d, int t)
     {
         ID = id;
-        name = n;
+        cName = n;
         health = h;
         attack = a;
         defense = d;
@@ -35,11 +35,6 @@ public class Character:MonoBehaviour
     public void TakeDamage(int dmg)
     {
 
-    }
-
-    private void Update()
-    {
-        CheckChanges();
     }
 
     void CheckChanges()
@@ -55,10 +50,5 @@ public class Character:MonoBehaviour
 
 public static class GameData
 {
-    public static Character c0;
-    public static Character c1;
-    public static Character c2;
-
     public static int floor = 1;
-
 }

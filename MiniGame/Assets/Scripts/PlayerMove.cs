@@ -10,6 +10,7 @@ public class PlayerMove : MonoBehaviour
     float moveDuration;
     float tStamp;
     Vector3 startPos;
+    public bool isMoving = false;
 
     Animator animator;
     void Start()
@@ -30,6 +31,7 @@ public class PlayerMove : MonoBehaviour
                 targetPos = ray.GetPoint(enter);
                 startPos = transform.position;
                 animator.SetBool("isMoving", true);
+                isMoving = true;
                 moveDuration = Vector3.Magnitude(targetPos - transform.position) / moveSpd;
                 tStamp = Time.time;
 
@@ -45,6 +47,7 @@ public class PlayerMove : MonoBehaviour
         else
         {
             animator.SetBool("isMoving", false);
+            isMoving = false;
         }
 
 

@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class SelectDoorScene : MonoBehaviour
 {
     public PageManager pgm;
+    bool isSelecting = false;
+    int doorID;
+    public PlayerMove playerMove;
+    bool acted = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,7 +16,11 @@ public class SelectDoorScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (isSelecting && !playerMove.isMoving && !acted)
+        {
+            pgm.Act("Battle");
+            acted = true;
+        }
     }
 
     // Decide what content is behind each door
@@ -22,20 +29,10 @@ public class SelectDoorScene : MonoBehaviour
 
     }
 
-    public void SelectDoor1()
+    public void SelectDoor(int id)
     {
-        Debug.Log("SelectDoor1");
-        pgm.Act();
-        SceneManager.LoadScene("Battle");
-    }
-
-    public void SelectDoor2()
-    {
-
-    }
-
-    public void SelectDoor3()
-    {
-
+        playerMove.isMoving = true;
+        isSelecting = true;
+        doorID = id;
     }
 }

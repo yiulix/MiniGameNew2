@@ -9,6 +9,10 @@ public class BattleScene : MonoBehaviour
     public Monster monster;
     public int BattleState = -1; // 0 is fighting, 1 win, 2 lose
     string[] toDialog; // who, whom, dmg
+    public mCharacter c0;
+    public mCharacter c1;
+    public mCharacter c2;
+
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +25,7 @@ public class BattleScene : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
-            pgm.Act();
+            pgm.Act("SelectDoor");
         }
     }
 
@@ -44,28 +48,28 @@ public class BattleScene : MonoBehaviour
     {
         if (turn == 0)
         {
-            int dmg = GameData.c0.attack - monster.defense;
+            int dmg = c0.attack - monster.defense;
             monster.health -= dmg;
-            toDialog[0] = GameData.c0.name;
+            toDialog[0] = c0.cName;
             toDialog[1] = monster.name;
             toDialog[2] = dmg.ToString();
             
         }
         if (turn == 2)
         {
-            monster.health -= GameData.c1.attack;
-            int dmg = GameData.c1.attack - monster.defense;
+            monster.health -= c1.attack;
+            int dmg = c1.attack - monster.defense;
             monster.health -= dmg;
-            toDialog[0] = GameData.c1.name;
+            toDialog[0] = c1.cName;
             toDialog[1] = monster.name;
             toDialog[2] = dmg.ToString();
         }
         if (turn == 4)
         {
-            monster.health -= GameData.c2.attack;
-            int dmg = GameData.c2.attack - monster.defense;
+            monster.health -= c2.attack;
+            int dmg = c2.attack - monster.defense;
             monster.health -= dmg;
-            toDialog[0] = GameData.c2.name;
+            toDialog[0] = c2.cName;
             toDialog[1] = monster.name;
             toDialog[2] = dmg.ToString();
         }
@@ -76,27 +80,27 @@ public class BattleScene : MonoBehaviour
             int dmg;
             if (r == 0)
             {
-                dmg = monster.attack - GameData.c0.defense;
+                dmg = monster.attack - c0.defense;
                 toDialog[0] = monster.name;
-                toDialog[1] = GameData.c0.name;
+                toDialog[1] = c0.cName;
                 toDialog[2] = dmg.ToString();
-                GameData.c0.TakeDamage(dmg);
+                c0.TakeDamage(dmg);
             }
             if (r == 1)
             {
-                dmg = monster.attack - GameData.c1.defense;
+                dmg = monster.attack - c1.defense;
                 toDialog[0] = monster.name;
-                toDialog[1] = GameData.c1.name;
+                toDialog[1] = c1.cName;
                 toDialog[2] = dmg.ToString();
-                GameData.c1.TakeDamage(dmg);
+                c1.TakeDamage(dmg);
             }
             if (r == 2)
             {
-                dmg = monster.attack - GameData.c2.defense;
+                dmg = monster.attack - c2.defense;
                 toDialog[0] = monster.name;
-                toDialog[1] = GameData.c2.name;
+                toDialog[1] = c2.cName;
                 toDialog[2] = dmg.ToString();
-                GameData.c2.TakeDamage(dmg);
+                c2.TakeDamage(dmg);
             }
 
         }
