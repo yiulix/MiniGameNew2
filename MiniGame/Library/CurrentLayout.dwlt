@@ -49,7 +49,11 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 78
+=======
+  controlID: 62
+>>>>>>> parent of 522eefb... sss
 =======
   controlID: 62
 >>>>>>> parent of 522eefb... sss
@@ -79,8 +83,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4002, y: 4024}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ActualView: {fileID: 14}
 =======
+=======
+>>>>>>> parent of 522eefb... sss
 =======
 >>>>>>> parent of 522eefb... sss
   m_ActualView: {fileID: 15}
@@ -109,11 +116,14 @@ MonoBehaviour:
     width: 379
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 645
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 15}
 =======
+=======
+>>>>>>> parent of 522eefb... sss
 =======
 >>>>>>> parent of 522eefb... sss
     height: 716
@@ -245,7 +255,11 @@ MonoBehaviour:
   vertical: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 13
+=======
+  controlID: 30
+>>>>>>> parent of 522eefb... sss
 =======
   controlID: 30
 >>>>>>> parent of 522eefb... sss
@@ -285,6 +299,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 76
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 522eefb... sss
+=======
 >>>>>>> parent of 522eefb... sss
 =======
 >>>>>>> parent of 522eefb... sss
@@ -308,8 +325,11 @@ MonoBehaviour:
     width: 1152
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 645
 =======
+=======
+>>>>>>> parent of 522eefb... sss
 =======
 >>>>>>> parent of 522eefb... sss
     height: 716
@@ -421,6 +441,7 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
@@ -434,11 +455,16 @@ MonoBehaviour:
   - Assets/Prefabs
 >>>>>>> parent of 522eefb... sss
 =======
+=======
+>>>>>>> parent of 522eefb... sss
     - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/Prefabs
+<<<<<<< HEAD
+>>>>>>> parent of 522eefb... sss
+=======
 >>>>>>> parent of 522eefb... sss
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\zhuge.yiulix\Documents\MiniGameNew2\MiniGame
@@ -448,9 +474,15 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: b2140000
     m_LastClickedID: 5298
     m_ExpandedIDs: 00000000a80e000000120000b21400001015000000ca9a3b
+=======
+    m_SelectedIDs: dc0f0000
+    m_LastClickedID: 4060
+    m_ExpandedIDs: 00000000e00e00002c120000d814000000ca9a3b
+>>>>>>> parent of 522eefb... sss
 =======
     m_SelectedIDs: dc0f0000
     m_LastClickedID: 4060
@@ -490,7 +522,11 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000a80e000000120000b214000010150000
+=======
+    m_ExpandedIDs: 00000000e00e00002c120000d8140000
+>>>>>>> parent of 522eefb... sss
 =======
     m_ExpandedIDs: 00000000e00e00002c120000d8140000
 >>>>>>> parent of 522eefb... sss
@@ -612,8 +648,11 @@ MonoBehaviour:
     width: 377
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 625
 =======
+=======
+>>>>>>> parent of 522eefb... sss
 =======
 >>>>>>> parent of 522eefb... sss
     height: 696
@@ -624,9 +663,15 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: fa0f0000
       m_LastClickedID: 0
       m_ExpandedIDs: e6faffff06fbffff1cfbffffc4fbffff
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: f4f0ffffd8f1ffff16f5ffffc4f6ffff7efbffffd6fbfffff6390000
+>>>>>>> parent of 522eefb... sss
 =======
       m_SelectedIDs: 
       m_LastClickedID: 0
@@ -685,8 +730,11 @@ MonoBehaviour:
     width: 1148
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 625
 =======
+=======
+>>>>>>> parent of 522eefb... sss
 =======
 >>>>>>> parent of 522eefb... sss
     height: 696
@@ -730,6 +778,7 @@ MonoBehaviour:
   m_Rotation:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
@@ -751,6 +800,15 @@ MonoBehaviour:
 >>>>>>> parent of 522eefb... sss
 =======
 >>>>>>> parent of 522eefb... sss
+=======
+    m_Target: {x: -0.03479795, y: -0.017392024, z: 0.0006049127, w: -0.99924284}
+    speed: 2
+    m_Value: {x: -0.03479795, y: -0.017392024, z: 0.0006049127, w: -0.99924284}
+  m_Size:
+    m_Target: 813.29315
+    speed: 2
+    m_Value: 813.29315
+>>>>>>> parent of 522eefb... sss
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -758,7 +816,11 @@ MonoBehaviour:
   m_ShowGlobalGrid: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+=======
+  m_LastSceneViewRotation: {x: -0.07361292, y: -0.059206024, z: 0.0043775793, w: -0.99551827}
+>>>>>>> parent of 522eefb... sss
 =======
   m_LastSceneViewRotation: {x: -0.07361292, y: -0.059206024, z: 0.0043775793, w: -0.99551827}
 >>>>>>> parent of 522eefb... sss
@@ -793,11 +855,14 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 507
     y: 94
     width: 1532
     height: 790
 =======
+=======
+>>>>>>> parent of 522eefb... sss
 =======
 >>>>>>> parent of 522eefb... sss
     x: 379
@@ -818,11 +883,14 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -766
     m_HBaseRangeMax: 766
     m_VBaseRangeMin: -386.5
     m_VBaseRangeMax: 386.5
 =======
+=======
+>>>>>>> parent of 522eefb... sss
 =======
 >>>>>>> parent of 522eefb... sss
     m_HBaseRangeMin: -574
@@ -849,6 +917,7 @@ MonoBehaviour:
       y: 17
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 1532
       height: 773
     m_Scale: {x: 1, y: 1}
@@ -856,11 +925,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 522eefb... sss
+=======
+>>>>>>> parent of 522eefb... sss
       width: 1148
       height: 679
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 574, y: 339.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 522eefb... sss
+=======
 >>>>>>> parent of 522eefb... sss
 =======
 >>>>>>> parent of 522eefb... sss
@@ -870,6 +944,7 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       x: -766
@@ -884,6 +959,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 522eefb... sss
+=======
+>>>>>>> parent of 522eefb... sss
       x: -574
       y: -339.5
       width: 1148
@@ -894,6 +971,9 @@ MonoBehaviour:
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 1148, y: 696}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 522eefb... sss
+=======
 >>>>>>> parent of 522eefb... sss
 =======
 >>>>>>> parent of 522eefb... sss
