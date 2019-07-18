@@ -6,9 +6,15 @@ public class PlayerMove : MonoBehaviour
 {
     // Start is called before the first frame update
     Vector3 targetPos;
+    public float moveSpd = 1;
+    float moveDuration;
+    float tStamp;
+    Vector3 startPos;
+
+    Animator animator;
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -22,10 +28,25 @@ public class PlayerMove : MonoBehaviour
             if (p.Raycast(ray, out enter))
             {
                 targetPos = ray.GetPoint(enter);
+                startPos = transform.position;
+                animator.SetBool("isMoving", true);
+                moveDuration = Vector3.Magnitude(targetPos - transform.position) / moveSpd;
+                tStamp = Time.time;
+
             }
+
         }
 
-        //有时间再改这里
-        transform.position = Vector3.Lerp(transform.position, targetPos,5 * Time.deltaTime);
+        if (Time.time - tStamp < moveDuration)
+        {
+            transform.position = Vector3.Lerp(startPos, targetPos, (Time.time - tStamp) / moveDuration);
+        }
+
+        else
+        {
+            animator.SetBool("isMoving", false);
+        }
+
+
     }
 }
